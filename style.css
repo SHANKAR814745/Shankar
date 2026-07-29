@@ -172,14 +172,19 @@ nav ul li a:hover{
 }
 
 .hero-right img{
-    width:360px;
-    height:360px;
+    width:450px;
+    height:450px;
     object-fit:cover;
     border-radius:50%;
     border:6px solid #00abf0;
     box-shadow:0 0 35px #00abf0;
 }
-
+.hero-right {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* =======================
       SECTION TITLE
 ======================= */
